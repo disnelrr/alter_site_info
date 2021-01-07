@@ -1,0 +1,6 @@
+# Extending the system.site configuration
+system.site:
+  mapping:
+    siteapikey:
+      type: label
+      label: 'Site API Keys' 

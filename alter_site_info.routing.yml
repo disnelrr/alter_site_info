@@ -1,0 +1,7 @@
+alter_site_info.content:
+  path: '/page_json/{apikey}/{nid}'
+  defaults: 
+    _controller: '\Drupal\alter_site_info\Controller\Controller::content' 
+    _title: 'Page JSON Content'
+  requirements: 
+    _permission: 'access content'  

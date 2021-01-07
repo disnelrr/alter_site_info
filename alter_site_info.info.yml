@@ -1,0 +1,8 @@
+name: Alter Site Information
+type: module
+description: Adds a new field to Site Information form for Site API Key
+package: test
+core_version_requirement: ^8.9 || ^9
+dependencies:
+  - drupal:serialization
+  - drupal:jsonapi
