@@ -27,10 +27,9 @@ class Controller extends ControllerBase {
         '#node' => \Drupal::service('serializer')->serialize($node, 'json'),
       ];
     } else {
-       $build = [
-        '#markup' => $this->t('Access Denied!'),
-      ];
-      return $build;
+        return [
+          '#markup' => $this->t('Access Denied!'),
+        ];
     }
   }
 
